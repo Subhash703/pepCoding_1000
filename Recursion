@@ -1,0 +1,160 @@
+Question : 1
+/****
+Printing in incresing order
+
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+        // write your code here
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        printDecreasing(n);
+    }
+
+    public static void printDecreasing(int n){
+        if(n<1){
+            return;
+        }
+        System.out.println(n);
+        printDecreasing(n-1);
+    }
+
+}
+***********/
+
+Question 2 :
+/*************
+Printing In Incresing order
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+        // write your code here
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        printDecreasing(n);
+    }
+
+    public static void printDecreasing(int n){
+        if(n<1){
+            return;
+        }
+        System.out.println(n);
+        printDecreasing(n-1);
+    }
+
+}
+
+************/
+Question : 3
+/*********
+ You are required to print the counting from n to 1 and back to n again.
+ 
+ import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+        // write your code here
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        pdi(n);
+    }
+
+    public static void pdi(int n){
+        if(n<1){
+            return;
+        }
+        System.out.println(n);
+        pdi(n-1);
+        System.out.println(n);
+    }
+
+}
+*********/
+Question 4
+/*********
+You are required to calculate the factorial of the number. Don't change the signature of factorial function.
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+        // write your code here
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println(factorial(n,1));
+    }
+
+    public static int factorial(int n,int res){
+        if(n==0 || n==1){
+            return res;
+        }
+        return factorial(n-1,res*n);
+    }
+}
+*********/
+Question 5:
+/********
+You are required to calculate x raised to the power n. Don't change the signature of power function
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+        // write your code here
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int n = sc.nextInt();
+        System.out.println(power(x,n,1));
+    }
+
+    public static int power(int x, int n,int res){
+        if(n==0){
+            return res;
+        }
+        return power(x,n-1,res*x);
+    }
+
+}
+*********/
+Question 6:
+/********
+You are required to calculate x raised to the power n. Don't change the signature of power function.
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+        // write your code here
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int n = sc.nextInt();
+        System.out.println(power(x,n,1));
+    }
+
+    public static int power(int x, int n,int res){
+        if(n==0){
+            return res;
+        }
+        return power(x,n-1,res*x);
+    }
+}
+********/
+Question : 7
+/*******
+
+********/
+Question : 8
+/*******
+
+********/
